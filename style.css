@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  padding: 20px;
+  margin: 30px;
+}
+.hamburger {
+  margin-top: -40px;
+  margin-bottom: 60px;
+}
+nav {
+  justify-content: space-evenly;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  border: yellow;
+}
+nav:visited {
+  column-rule: red;
+}
+nav :hover {
+  color: blue;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: -50px;
+  height: 100px;
+  text-decoration: justify;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+}
+h4 {
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+
+.menu {
+  float: left;
+  margin-top: 400px;
+}
+.images {
+  float: right;
+  margin-top: -480px;
+}
+.footer {
+  margin-top: 950px;
+}
+.footer-contact {
+  text-align: left;
+  margin: 40px;
+  text-align: justify;
+}
+.footer h4 {
+  text-align: left;
+  color: blueviolet;
+  text-align: justify;
+}
+.main-footer {
+  width: 300px;
+  margin: 30px;
+}
+.main-footer p {
+  padding: 20px 20px;
+  margin: 20px;
+}
+input {
+  padding: 18px;
+  width: 1000px;
+}
