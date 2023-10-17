@@ -81,4 +81,9 @@ p {
 input {
   padding: 18px;
   width: 1000px;
+  text-decoration: none;
+}
+button {
+  display: block;
+  margin: auto;
 }
